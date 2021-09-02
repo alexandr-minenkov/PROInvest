@@ -1,0 +1,21 @@
+﻿<Window x:Class="Client.AdminFeedbackWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="AdminFeedbackWindow" Height="400" Width="500" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" Margin="5">
+            <TextBlock x:Name="from" Text="От: username" FontSize="14" HorizontalAlignment="Center" Margin="2"></TextBlock>
+            <TextBlock Text="Вопрос:" FontWeight="Bold" FontSize="14" Margin="2" HorizontalAlignment="Center"></TextBlock>
+            <TextBlock x:Name="question" Text="суть вопроса" FontSize="14" TextAlignment="Center" FontStyle="Italic" Margin="2" Height="50" Width="300" HorizontalAlignment="Center"></TextBlock>
+            <TextBlock x:Name="date" Text="Дата: questiondate" FontSize="14" HorizontalAlignment="Center"></TextBlock>
+            <TextBlock Text="Ответ:" HorizontalAlignment="Center" FontSize="14" Margin="2"></TextBlock>
+            <RichTextBox x:Name="answer" Width="350" Height="50" FontSize="14" HorizontalAlignment="Center"></RichTextBox>
+            <Button x:Name="buttonAnswer" Click="buttonAnswer_Click" Content="Ответить" Width="150" Margin="25"></Button>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,20 @@
+﻿Client
+
+
+winexe
+C#
+.cs
+D:\Документы\Курсовые\4 сем\Client\obj\Debug\netcoreapp3.1\
+Client
+none
+false
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
+D:\Документы\Курсовые\4 сем\Client\App.xaml
+261710029245
+
+32-1289092828
+1961402516640
+AddSharesWindow.xaml;AdminControlFeedback.xaml;AdminControlForecast.xaml;AdminControlProjects.xaml;AdminControlPurchaseHistory.xaml;AdminControlUsersList.xaml;AdminFeedbackWindow.xaml;AdminWindow.xaml;ChangeUserRoleWindow.xaml;ChartControl.xaml;DefaultWindow.xaml;EditUserWindow.xaml;MainWindow.xaml;PasswordRecoveryWindow.xaml;PieChartControl.xaml;RegistrationWindow.xaml;ReportShares.xaml;ReportStats.xaml;UserControlAccount.xaml;UserControlDefaultMenuItem.xaml;UserControlFeedback.xaml;UserControlFinance.xaml;UserControlMenuItem.xaml;UserControlProjects.xaml;UserControlShares.xaml;UserFeedbackWindow.xaml;
+
+False
+

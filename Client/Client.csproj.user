@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AddSharesWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminControlFeedback.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminControlForecast.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminControlProjects.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminControlPurchaseHistory.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminFeedbackWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ChangeUserRoleWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ChartControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DefaultWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EditUserWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PasswordRecoveryWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PieChartControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RegistrationWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdminControlUsersList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReportShares.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReportStats.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControlDefaultMenuItem.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControlFeedback.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControlFinance.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControlMenuItem.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControlAccount.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControlProjects.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControlShares.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserFeedbackWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddSharesWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminControlFeedback.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminControlForecast.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminControlProjects.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminControlPurchaseHistory.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminFeedbackWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ChangeUserRoleWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ChartControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DefaultWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EditUserWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PasswordRecoveryWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PieChartControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RegistrationWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminControlUsersList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReportShares.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReportStats.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControlDefaultMenuItem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControlFeedback.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControlFinance.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControlMenuItem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControlAccount.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControlProjects.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControlShares.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserFeedbackWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

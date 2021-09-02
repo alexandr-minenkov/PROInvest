@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="Client.UserControlShares"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Client"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="800">
+    <Grid x:Name="MainGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="450"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Border Grid.Column="0" Height="400" Margin="50 50 50 0" Background="AliceBlue" VerticalAlignment="Stretch" CornerRadius="12">
+            <Border.Effect>
+                <DropShadowEffect  BlurRadius="30" Color="LightGray" ShadowDepth="5"/>
+            </Border.Effect>
+            <StackPanel>
+            <TextBlock Text="Мои активы" FontSize="23" Margin="25" HorizontalAlignment="Center"></TextBlock>
+            <DataGrid x:Name="sharesGrid" Background="AliceBlue" Height="250" VerticalAlignment="center" HorizontalAlignment="Center" IsReadOnly="True" AutoGenerateColumns="False" CanUserReorderColumns="False" CanUserResizeColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Проект" Width="155" Binding="{Binding Path=nameProject}"/>
+                    <DataGridTextColumn Header="Акции(шт)" Width="120" Binding="{Binding Path=countShare}"/>
+                    <DataGridTextColumn Header="Цена($)" Width="120" Binding="{Binding Path=сostShares}"/>
+                    <DataGridTextColumn Header="Стоимость($)" Width="150" Binding="{Binding Path=valueShare}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+                <Button x:Name="buttonUpdate" Click="buttonUpdate_Click" Content="Обновить" HorizontalAlignment="Left" Margin="75 10 0 0" VerticalAlignment="Bottom"></Button>
+                
+            </StackPanel>
+            
+        </Border>
+        <Button x:Name="buttonSell" Click="buttonSell_Click" Content="Продать" HorizontalAlignment="Right" Margin="0 10 125 27" VerticalAlignment="Bottom"></Button>
+
+
+
+    </Grid>
+</UserControl>

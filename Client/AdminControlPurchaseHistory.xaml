@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="Client.AdminControlPurchaseHistory"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Client"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid x:Name="MainGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="450"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Content="История операций" HorizontalAlignment="Center" FontSize="20" FontWeight="DemiBold" Margin="0 5 0 0"></Label>
+        <Border Grid.Column="0" Margin="21 50 20 50" Background="White" VerticalAlignment="Stretch" CornerRadius="12">
+            
+            <DataGrid x:Name="historyGrid" Background="White" IsReadOnly="True" AutoGenerateColumns="False" CanUserReorderColumns="False" CanUserResizeColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Пользователь" Width="120" Binding="{Binding Path=login}"/>
+                    <DataGridTextColumn Header="Дата" Width="165"  Binding="{Binding Path=date}"/>
+                    <DataGridTextColumn Header="Проект" Width="125" Binding="{Binding Path=project}"/>
+                    <DataGridTextColumn Header="Цена($)" Width="105" Binding="{Binding Path=cost}"/>
+                    <DataGridTextColumn Header="Кол-во(шт)" Width="105" Binding="{Binding Path=count}"/>
+                    <DataGridTextColumn Header="Сумма($)" Width="105" Binding="{Binding Path=sum}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Border>
+        <Button x:Name="clearTableButton" Content="Очистить таблицу" Click="clearTableButton_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,20,10"/>
+
+
+    </Grid>
+</UserControl>

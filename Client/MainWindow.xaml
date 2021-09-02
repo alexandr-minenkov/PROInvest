@@ -1,0 +1,33 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:Client"
+        mc:Ignorable="d"
+        Title="Client" Height="600" Width="800" WindowStyle="ToolWindow" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Normal" Cursor="Arrow">
+    <Grid Background="AliceBlue">
+        <Label Content="Добро пожаловать!" HorizontalAlignment="Center" Margin="0,0,0,420" VerticalAlignment="Center" Width="300" FontWeight="Bold" FontSize="30"/>
+        <TextBlock Text="PROInvest" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0, 0, 0, 330" FontSize="20" FontFamily="Titillium Web"></TextBlock>
+        <TextBlock Text="''Ваши инвестиции - в надежных руках!''" FontStyle="Italic" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0, 0, 0, 285" FontSize="13"></TextBlock>
+        <Border BorderBrush="{DynamicResource PrimaryHueDarkBrush}" MinWidth="400" Margin="15,100,15,0" Background="White" VerticalAlignment="Center" Padding="30" MaxWidth="450" CornerRadius="20" Grid.ColumnSpan="2">
+            <Border.Effect>
+                <DropShadowEffect  BlurRadius="30" Color="LightGray" ShadowDepth="5"/>
+            </Border.Effect>
+            <StackPanel>
+                <TextBlock Text="Вход в аккаунт" FontSize="25" FontWeight="Medium" Margin="0 0 0 20"></TextBlock>
+                <TextBox x:Name="textBoxLogin" materialDesign:HintAssist.Hint="Введите логин" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <PasswordBox x:Name="passwordBox" materialDesign:HintAssist.Hint="Введите пароль" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" Cursor="IBeam"/>
+                <Button Content="Войти" Click="Button_Auth_Click" BorderThickness="1.5" BorderBrush="#123db5" Style="{StaticResource MaterialDesignOutlinedButton}" Background="White" Foreground="Black" Margin="0,30,0,0" Width="200"/>
+                <Button Content="Зарегистрироваться" BorderThickness="1.5" Click="Button_Reg_Click"  HorizontalAlignment="Center" Margin="0,10,0,0" Width="200"/>
+                <Button x:Name="buttonForgottenPass" Click="buttonForgottenPass_Click" Content="Забыли пароль?" Style="{StaticResource MaterialDesignFlatButton}" BorderThickness="1.5" HorizontalAlignment="Center" Margin="0,10,0,0" Width="200"/>
+
+            </StackPanel>
+        </Border>
+        <StackPanel VerticalAlignment="Center" Margin="0, 300, 0, 0">
+            
+            
+        </StackPanel>
+    </Grid>
+</Window>

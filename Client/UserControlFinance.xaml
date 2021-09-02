@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="Client.UserControlFinance"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Client"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Border BorderBrush="{DynamicResource PrimaryHueDarkBrush}" MinWidth="400" Height="360" Padding="30" MaxWidth="450" CornerRadius="20" Margin="5, 55, 5, 5" Background="AliceBlue" VerticalAlignment="Center" HorizontalAlignment="Center">
+
+            <Border.Effect>
+                <DropShadowEffect  BlurRadius="30" Color="LightGray" ShadowDepth="5"/>
+            </Border.Effect>
+            
+            <StackPanel HorizontalAlignment="Left" Margin="60" VerticalAlignment="Center">
+                <TextBlock Text="Мои Финансы" Margin="50 0 50 15" FontSize="20" FontWeight="DemiBold" HorizontalAlignment="Center"></TextBlock>
+                <TextBlock Text="{Binding Path=name, StringFormat=Имя: {0}}" FontSize="16"></TextBlock>
+                <TextBlock Text="{Binding Path=surname, StringFormat=Фамилия: {0}}" FontSize="16"></TextBlock>
+                <TextBlock Text="{Binding Path=balance, StringFormat=Счёт: {0}}" FontSize="16"></TextBlock>
+                <TextBlock Text="{Binding Path=access, StringFormat=Доступ: {0}}" FontSize="16"></TextBlock>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

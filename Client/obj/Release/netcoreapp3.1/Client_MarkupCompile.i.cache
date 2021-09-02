@@ -1,0 +1,20 @@
+﻿Client
+1.0.0.0
+
+winexe
+C#
+.cs
+D:\Документы\Курсовые\4 сем\Client\obj\Release\netcoreapp3.1\
+Client
+none
+false
+TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1
+D:\Документы\Курсовые\4 сем\Client\App.xaml
+10-1684772168
+
+18-1257863978
+194524023489
+AdminControlProjects.xaml;AdminControlUsersList.xaml;AdminWindow.xaml;ChangeUserRoleWindow.xaml;DefaultWindow.xaml;MainWindow.xaml;RegistrationWindow.xaml;TemplateProjectControl.xaml;UserControlAccount.xaml;UserControlMenuItem.xaml;
+
+False
+

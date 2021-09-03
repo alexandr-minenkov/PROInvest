@@ -12,3 +12,5 @@ Desktop program that manages users investments
 ![image](https://user-images.githubusercontent.com/60778358/131935175-8fca5051-3875-44bf-a059-b0120b33eda1.png)
 
 ![image](https://user-images.githubusercontent.com/60778358/131935209-66f7116f-a7da-48c2-84ae-f6f91b3ece38.png)
+
+![image](https://user-images.githubusercontent.com/60778358/131935503-eb27f47d-1395-4cbe-aeab-627d148bf7e7.png)
